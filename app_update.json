@@ -1,7 +1,6 @@
-
 {
   "versionCode": 2,
   "versionName": "1.1",
-  "apkUrl": "PASTE_APK_RELEASE_LINK_HERE",
+  "apkUrl": "https://github.com/ZHYBREY/SongHub-Catalog/releases/download/v1.1/app-debug.apk",
   "releaseNotes": "SongHub Remote update 1.1"
 }
