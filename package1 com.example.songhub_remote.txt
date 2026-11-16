@@ -1184,26 +1184,9 @@ fun SongHubApp() {
         } catch (_: Exception) {
         }
 
-        try {
-            val updatedSongs = withContext(Dispatchers.IO) {
-                updateOnlineCatalog(context, folderUri)
-            }
-
-            val pendingCount = withContext(Dispatchers.IO) {
-                recordCatalogChanges(prefs, updatedSongs)
-            }
-
-            pendingNewSongCount = pendingCount
-            songs = updatedSongs
-            message = "GitHub catalog updated: ${updatedSongs.size} songs."
-
-        } catch (e: Exception) {
-            if (songs.isNotEmpty()) {
-                message = "Offline mode: saved catalog is active."
-            } else {
-                message = "Online catalog unavailable: ${e.message}"
-            }
-        }
+        // Do not download and parse the 69 MB lyrics catalog during startup.
+        // The bundled/local catalog is already available offline.
+        // Online refresh remains available through the manual Refresh action.
     }
 
     // DOCUMENTS FOLDER PICKER
