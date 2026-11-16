@@ -500,7 +500,7 @@ private fun loadOfflineLyrics(context: android.content.Context, targetCode: Stri
                     }
                 }
                 reader.endObject()
-                if (code == targetCode) found = lyrics.replace("\r\n", "\n").replace("\r", "\n").trim()
+                if (code == targetCode) found = lyrics.replace("\r\n", "\n").replace("\r", "\n").replace("/", " ").replace(Regex("[ \\t]+"), " ").replace(Regex(" *\\n *"), "\n").trim()
             }
             else -> reader.skipValue()
         }
