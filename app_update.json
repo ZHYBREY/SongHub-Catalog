@@ -1,6 +1,6 @@
 {
   "versionCode": 8,
   "versionName": "1.5",
-  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/latest/download/app-debug.apk",
-  "releaseNotes": "SongHub Remote 1.5: automatic online songs and lyrics catalog updates."
+  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/1.5/app-debug.apk",
+  "releaseNotes": "SongHub Remote 1.5 - Automatic lyrics catalog download and app improvements"
 }
