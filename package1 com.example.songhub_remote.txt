@@ -72,7 +72,8 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel
 data class Song(
     val code: String,
     val title: String,
-    val artist: String
+    val artist: String,
+    val lyrics: String = ""
 )
 
 data class ScoreEntry(
@@ -456,13 +457,18 @@ private fun parseSongs(json: String): List<Song> {
         val code = item.optString("code").trim()
         val title = item.optString("title").trim()
         val artist = item.optString("artist").trim()
+        val lyrics = item.optString("lyrics", "")
+            .replace("\r\n", "\n")
+            .replace("\r", "\n")
+            .trim()
 
         if (code.isNotBlank() && title.isNotBlank()) {
             if (!result.containsKey(code)) {
                 result[code] = Song(
                     code = code,
                     title = title,
-                    artist = artist
+                    artist = artist,
+                    lyrics = lyrics
                 )
             }
         }
@@ -1754,7 +1760,9 @@ fun SongHubApp() {
                     )
                     Spacer(Modifier.height(14.dp))
                     Text(
-                        "The scanned song lyrics will be displayed here, centered and separated into clear stanzas.",
+                        lyricsPreviewSong?.lyrics
+                            ?.takeIf { it.isNotBlank() }
+                            ?: "Walang naka-save na lyrics para sa kantang ito.",
                         modifier = Modifier.fillMaxWidth(),
                         color = Color(0xFFE0E7FF),
                         fontSize = 17.sp,
@@ -2890,7 +2898,7 @@ fun SongHubApp() {
                         colors = ButtonDefaults.outlinedButtonColors(contentColor = Accent),
                         border = androidx.compose.foundation.BorderStroke(1.dp, Accent)
                     ) {
-                        Text("♫  LYRICS", fontWeight = FontWeight.ExtraBold)
+                        Text("♫  SEE LYRICS", fontWeight = FontWeight.ExtraBold)
                     }
                 }
             },
