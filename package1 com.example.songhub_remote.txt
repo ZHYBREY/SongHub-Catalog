@@ -452,9 +452,10 @@ private fun sortSongsAlphabetically(songs: List<Song>): List<Song> {
 
 // PARSE NORMAL AND NESTED JSON CATALOGS
 
-private fun parseSongs(json: String): List<Song> {
+private fun parseSongs(json: String): List<Song> = parseSongs(JsonReader(StringReader(json)))
+
+private fun parseSongs(reader: JsonReader): List<Song> {
     val result = LinkedHashMap<String, Song>()
-    val reader = JsonReader(StringReader(json))
     reader.isLenient = true
     fun readValue() {
         when (reader.peek()) {
@@ -609,57 +610,25 @@ private fun loadSongs(
     context: android.content.Context,
     folderUri: String?
 ): List<Song> {
-
-    val catalogs = mutableListOf<List<Song>>()
-
     if (!folderUri.isNullOrBlank()) {
         try {
-            val folder = getCatalogDirectory(
-                context,
-                Uri.parse(folderUri)
-            )
-
+            val folder = getCatalogDirectory(context, Uri.parse(folderUri))
             val file = folder.findFile("songs_catalog.json")
-
             if (file != null && file.exists()) {
-                val json = context.contentResolver
-                    .openInputStream(file.uri)
-                    ?.bufferedReader()
-                    ?.use { it.readText() }
-
-                if (!json.isNullOrBlank()) {
-                    catalogs.add(parseSongs(json))
-                }
+                val stream = context.contentResolver.openInputStream(file.uri)
+                    ?: throw Exception("Hindi mabasa ang catalog file.")
+                return stream.bufferedReader().use { parseSongs(JsonReader(it)) }
             }
-        } catch (_: Exception) {
-        }
+        } catch (_: Exception) { }
     }
-
-    try {
-        val cachedFile = File(
-            context.filesDir,
-            "songs_catalog.json"
-        )
-
-        if (cachedFile.exists()) {
-            val json = cachedFile.readText(Charsets.UTF_8)
-            catalogs.add(parseSongs(json))
-        }
-    } catch (_: Exception) {
+    val cached = File(context.filesDir, "songs_catalog.json")
+    if (cached.exists()) {
+        try { return cached.inputStream().bufferedReader().use { parseSongs(JsonReader(it)) } }
+        catch (_: Exception) { }
     }
-
-    try {
-        val json = context.assets
-            .open("songs_catalog.json")
-            .bufferedReader()
-            .use { it.readText() }
-
-        catalogs.add(parseSongs(json))
-    } catch (_: Exception) {
+    return context.assets.open("songs_catalog.json").bufferedReader().use {
+        parseSongs(JsonReader(it))
     }
-
-    return catalogs.maxByOrNull { it.size }
-        ?: throw Exception("Walang mabasang valid song catalog.")
 }
 
 // FAST STARTUP CATALOG: return the saved catalog immediately.
@@ -668,26 +637,18 @@ private fun loadFastLocalSongs(
     context: android.content.Context
 ): List<Song> {
     val cachedFile = File(context.filesDir, "songs_catalog.json")
-
     if (cachedFile.exists()) {
         try {
-            val cachedSongs = parseSongs(
-                cachedFile.readText(Charsets.UTF_8)
-            )
-            if (cachedSongs.isNotEmpty()) {
-                return cachedSongs
+            return cachedFile.inputStream().bufferedReader().use {
+                parseSongs(JsonReader(it))
             }
         } catch (_: Exception) {
             // Fall back to the bundled catalog if the saved copy is invalid.
         }
     }
-
-    val bundledJson = context.assets
-        .open("songs_catalog.json")
-        .bufferedReader()
-        .use { it.readText() }
-
-    return parseSongs(bundledJson)
+    return context.assets.open("songs_catalog.json").bufferedReader().use {
+        parseSongs(JsonReader(it))
+    }
 }
 
 // CREATE INITIAL DOCUMENTS CATALOG
