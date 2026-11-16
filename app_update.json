@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "1.4",
+  "versionCode": 5,
+  "versionName": "1.3",
   "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/latest/download/app-debug.apk",
-  "releaseNotes": "SongHub Remote 1.4 - updated lyrics display and catalog support."
+  "releaseNotes": "SongHub Remote 1.3"
 }
