@@ -1690,6 +1690,7 @@ fun SongHubApp() {
                     Spacer(Modifier.height(14.dp))
                     Text(
                         lyricsPreviewSong?.lyrics
+                            ?.replace("/", "")
                             ?.takeIf { it.isNotBlank() }
                             ?: "Walang naka-save na lyrics para sa kantang ito.",
                         modifier = Modifier.fillMaxWidth(),
