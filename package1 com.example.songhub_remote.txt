@@ -60,6 +60,9 @@ import kotlinx.coroutines.withContext
 import okhttp3.*
 import org.json.JSONArray
 import org.json.JSONObject
+import android.util.JsonReader
+import android.util.JsonToken
+import java.io.StringReader
 import java.io.File
 import java.util.Locale
 import java.util.UUID
@@ -450,77 +453,59 @@ private fun sortSongsAlphabetically(songs: List<Song>): List<Song> {
 // PARSE NORMAL AND NESTED JSON CATALOGS
 
 private fun parseSongs(json: String): List<Song> {
-    val trimmed = json.trim()
     val result = LinkedHashMap<String, Song>()
-
-    fun addSong(item: JSONObject) {
-        val code = item.optString("code").trim()
-        val title = item.optString("title").trim()
-        val artist = item.optString("artist").trim()
-        val lyrics = item.optString("lyrics", "")
-            .replace("\r\n", "\n")
-            .replace("\r", "\n")
-            .trim()
-
-        if (code.isNotBlank() && title.isNotBlank()) {
-            if (!result.containsKey(code)) {
-                result[code] = Song(
-                    code = code,
-                    title = title,
-                    artist = artist,
-                    lyrics = lyrics
-                )
+    val reader = JsonReader(StringReader(json))
+    reader.isLenient = true
+    fun readValue() {
+        when (reader.peek()) {
+            JsonToken.BEGIN_ARRAY -> { reader.beginArray(); while (reader.hasNext()) readValue(); reader.endArray() }
+            JsonToken.BEGIN_OBJECT -> {
+                reader.beginObject()
+                var code = ""; var title = ""; var artist = ""
+                while (reader.hasNext()) {
+                    when (reader.nextName()) {
+                        "code" -> code = if (reader.peek() == JsonToken.NULL) { reader.nextNull(); "" } else reader.nextString()
+                        "title" -> title = if (reader.peek() == JsonToken.NULL) { reader.nextNull(); "" } else reader.nextString()
+                        "artist" -> artist = if (reader.peek() == JsonToken.NULL) { reader.nextNull(); "" } else reader.nextString()
+                        else -> readValue()
+                    }
+                }
+                reader.endObject()
+                if (code.isNotBlank() && title.isNotBlank() && !result.containsKey(code)) result[code] = Song(code.trim(), title.trim(), artist.trim())
             }
+            else -> reader.skipValue()
         }
     }
-
-    fun addSongArray(array: JSONArray) {
-        for (i in 0 until array.length()) {
-            val item = array.optJSONObject(i) ?: continue
-
-            val nested = item.optJSONArray("value")
-                ?: item.optJSONArray("songs")
-                ?: item.optJSONArray("data")
-
-            if (nested != null) {
-                addSongArray(nested)
-            } else {
-                addSong(item)
-            }
-        }
-    }
-
-    when {
-        trimmed.startsWith("[") -> {
-            addSongArray(JSONArray(trimmed))
-        }
-
-        trimmed.startsWith("{") -> {
-            val root = JSONObject(trimmed)
-
-            val array = root.optJSONArray("value")
-                ?: root.optJSONArray("songs")
-                ?: root.optJSONArray("data")
-
-            if (array != null) {
-                addSongArray(array)
-            } else {
-                throw Exception(
-                    "Hindi makita ang song list sa JSON object."
-                )
-            }
-        }
-
-        else -> {
-            throw Exception("Invalid JSON format.")
-        }
-    }
-
-    require(result.isNotEmpty()) {
-        "Walang valid songs sa JSON file."
-    }
-
+    try { readValue() } finally { reader.close() }
+    require(result.isNotEmpty()) { "Walang valid songs sa JSON file." }
     return result.values.toList()
+}
+
+// Read only one song's lyrics from the bundled catalog when requested.
+private fun loadOfflineLyrics(context: android.content.Context, targetCode: String): String {
+    val reader = JsonReader(context.assets.open("songs_catalog.json").bufferedReader())
+    reader.isLenient = true
+    var found = ""
+    fun scan() {
+        when (reader.peek()) {
+            JsonToken.BEGIN_ARRAY -> { reader.beginArray(); while (reader.hasNext() && found.isBlank()) scan(); while (reader.hasNext()) reader.skipValue(); reader.endArray() }
+            JsonToken.BEGIN_OBJECT -> {
+                reader.beginObject(); var code = ""; var lyrics = ""
+                while (reader.hasNext()) {
+                    when (reader.nextName()) {
+                        "code" -> code = if (reader.peek() == JsonToken.NULL) { reader.nextNull(); "" } else reader.nextString()
+                        "lyrics" -> lyrics = if (reader.peek() == JsonToken.NULL) { reader.nextNull(); "" } else reader.nextString()
+                        else -> scan()
+                    }
+                }
+                reader.endObject()
+                if (code == targetCode) found = lyrics.replace("\r\n", "\n").replace("\r", "\n").trim()
+            }
+            else -> reader.skipValue()
+        }
+    }
+    try { scan() } finally { reader.close() }
+    return found
 }
 
 // SAVE DOWNLOADED CATALOG TO INTERNAL STORAGE
@@ -2890,9 +2875,17 @@ fun SongHubApp() {
 
                     OutlinedButton(
                         onClick = {
-                            lyricsPreviewSong = song
                             selectedSong = null
                             showLyricsDialog = true
+                            lyricsPreviewSong = song.copy(lyrics = "Loading lyrics...")
+                            scope.launch {
+                                val loadedLyrics = withContext(Dispatchers.IO) {
+                                    loadOfflineLyrics(context, song.code)
+                                }
+                                if (lyricsPreviewSong?.code == song.code) {
+                                    lyricsPreviewSong = song.copy(lyrics = loadedLyrics)
+                                }
+                            }
                         },
                         modifier = Modifier.fillMaxWidth(),
                         colors = ButtonDefaults.outlinedButtonColors(contentColor = Accent),
