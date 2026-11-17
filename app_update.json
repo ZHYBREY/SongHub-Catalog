@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "1.6",
-  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/1.6/app-debug.apk",
-  "releaseNotes": "SongHub Remote 1.6 - Automatic lyrics catalog download and app improvements"
+  "versionCode": 11,
+  "versionName": "1.8",
+  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/1.8/app-debug.apk",
+  "releaseNotes": "SongHub Remote 1.8 - Share QR refresh and update support, app improvements"
 }
