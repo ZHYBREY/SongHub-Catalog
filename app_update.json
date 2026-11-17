@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "2.0.1",
-  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/2.0.1/app-debug.apk",
-  "releaseNotes": "SongHub Remote 2.0.1 - Lyrics Search loading progress and performance improvements"
+  "versionCode": 13,
+  "versionName": "2.0",
+  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/2.0/app-debug.apk",
+  "releaseNotes": "SongHub Remote 2.0 - Lyrics Search loading progress and performance improvements"
 }
