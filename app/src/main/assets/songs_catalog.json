@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "code":  "000001",
         "title":  "Boom Boom Boom",
@@ -6493,11 +6493,6 @@
         "code":  "001299",
         "title":  "Nagmahay Ako",
         "artist":  "Visayan Song"
-    },
-    {
-        "code":  "001300",
-        "title":  "Ti Ayat Ti\u0027maysa",
-        "artist":  "Ilocano Folk Song"
     },
     {
         "code":  "001301",
@@ -21070,11 +21065,6 @@
         "artist":  "La Cage Aux Folles"
     },
     {
-        "code":  "004215",
-        "title":  "How Can You Mend",
-        "artist":  "Bee Gees"
-    },
-    {
         "code":  "004216",
         "title":  "Juan Colorado",
         "artist":  "Lucha Reyes"
@@ -23220,11 +23210,6 @@
         "artist":  "Y,Del R`io"
     },
     {
-        "code":  "004645",
-        "title":  "Arayyy",
-        "artist":  "Mae Rivera"
-    },
-    {
         "code":  "004646",
         "title":  "Shout for Joy",
         "artist":  "Gary V"
@@ -23932,7 +23917,7 @@
     {
         "code":  "004787",
         "title":  "Draw Me Close",
-        "artist":  ""
+        "artist":  "- Michael W. Smith"
     },
     {
         "code":  "004788",
@@ -24082,7 +24067,7 @@
     {
         "code":  "004817",
         "title":  "Pag~Ibig Mo Jesus",
-        "artist":  ""
+        "artist":  "- Sanctuary of Worship Band"
     },
     {
         "code":  "004818",
@@ -24517,7 +24502,7 @@
     {
         "code":  "004904",
         "title":  "Let the Peace of God Reign",
-        "artist":  ""
+        "artist":  "- Hillsong Worship"
     },
     {
         "code":  "004905",
@@ -25122,7 +25107,7 @@
     {
         "code":  "005025",
         "title":  "Kailangan Ko\u0027y Ikaw",
-        "artist":  ""
+        "artist":  "- Regine Velasquez"
     },
     {
         "code":  "005026",
@@ -25412,7 +25397,7 @@
     {
         "code":  "005083",
         "title":  "Buhay at Pag~Asa",
-        "artist":  ""
+        "artist":  "- PAPURI! - Febe Magbanua"
     },
     {
         "code":  "005084",
@@ -26037,7 +26022,7 @@
     {
         "code":  "005208",
         "title":  "Isang Awit Isang Panginoon",
-        "artist":  ""
+        "artist":  "- PAPURI! - Ronald Rivera"
     },
     {
         "code":  "005209",
@@ -26472,7 +26457,7 @@
     {
         "code":  "005295",
         "title":  "The River Is Here",
-        "artist":  ""
+        "artist":  "- Andy Park"
     },
     {
         "code":  "005296",
@@ -27122,7 +27107,7 @@
     {
         "code":  "005425",
         "title":  "He Put a New Song",
-        "artist":  ""
+        "artist":  "- Martin J. Nystrom"
     },
     {
         "code":  "005426",
@@ -27786,8 +27771,8 @@
     },
     {
         "code":  "005558",
-        "title":  "Paano Kung Wala Ka Jesus - Tricia Amper",
-        "artist":  "Jimenez"
+        "title":  "Paano Kung Wala Ka Jesus",
+        "artist":  "Tricia Amper - Jimenez"
     },
     {
         "code":  "005559",
@@ -28122,7 +28107,7 @@
     {
         "code":  "005625",
         "title":  "Kabanal~Banalang Diyos",
-        "artist":  ""
+        "artist":  "- Musikatha"
     },
     {
         "code":  "005626",
@@ -29137,7 +29122,7 @@
     {
         "code":  "005828",
         "title":  "Victory Song",
-        "artist":  ""
+        "artist":  "- Kent Henry"
     },
     {
         "code":  "005829",
@@ -29447,7 +29432,7 @@
     {
         "code":  "005890",
         "title":  "Ngayon at Habang Panahon",
-        "artist":  ""
+        "artist":  "- PAPURI!"
     },
     {
         "code":  "005891",
@@ -29502,7 +29487,7 @@
     {
         "code":  "005901",
         "title":  "Pagmamahal Sa Panginoon",
-        "artist":  ""
+        "artist":  "- Himig Heswita"
     },
     {
         "code":  "005902",
@@ -30147,7 +30132,7 @@
     {
         "code":  "006030",
         "title":  "Our Father",
-        "artist":  ""
+        "artist":  "- Don Moen"
     },
     {
         "code":  "006031",
@@ -30732,7 +30717,7 @@
     {
         "code":  "006147",
         "title":  "Ako Ay Lalapit",
-        "artist":  ""
+        "artist":  "- Musikatha"
     },
     {
         "code":  "006148",
@@ -30867,7 +30852,7 @@
     {
         "code":  "006174",
         "title":  "Pray Away",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006175",
@@ -30887,7 +30872,7 @@
     {
         "code":  "006178",
         "title":  "Una Sa Lahat",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006179",
@@ -30997,12 +30982,12 @@
     {
         "code":  "006200",
         "title":  "Trading My Sorrows",
-        "artist":  ""
+        "artist":  "- Darrell Evans"
     },
     {
         "code":  "006201",
         "title":  "Paglingap Mo, Poon",
-        "artist":  ""
+        "artist":  "- Tinig San Jose"
     },
     {
         "code":  "006202",
@@ -31122,7 +31107,7 @@
     {
         "code":  "006225",
         "title":  "As David Did",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006226",
@@ -31557,7 +31542,7 @@
     {
         "code":  "006312",
         "title":  "Panalangin Sa Pagiging Bukas Palad",
-        "artist":  ""
+        "artist":  "- Bukas Palad Music Ministry"
     },
     {
         "code":  "006313",
@@ -32187,7 +32172,7 @@
     {
         "code":  "006438",
         "title":  "Purify My Heart",
-        "artist":  ""
+        "artist":  "- Brian Doerksen"
     },
     {
         "code":  "006439",
@@ -32327,7 +32312,7 @@
     {
         "code":  "006466",
         "title":  "I Will Praise Him",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006467",
@@ -32437,7 +32422,7 @@
     {
         "code":  "006488",
         "title":  "Come to the Table",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006489",
@@ -32507,7 +32492,7 @@
     {
         "code":  "006502",
         "title":  "Ilog Ng Buhay",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006503",
@@ -32747,7 +32732,7 @@
     {
         "code":  "006550",
         "title":  "Di Ka Malilimot",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006551",
@@ -32857,7 +32842,7 @@
     {
         "code":  "006572",
         "title":  "Christ in You",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006573",
@@ -33317,7 +33302,7 @@
     {
         "code":  "006664",
         "title":  "Ako Ay Aawit",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006665",
@@ -33332,7 +33317,7 @@
     {
         "code":  "006667",
         "title":  "I Am the God That  Healeth Thee",
-        "artist":  ""
+        "artist":  "- Don Moen"
     },
     {
         "code":  "006668",
@@ -33892,7 +33877,7 @@
     {
         "code":  "006779",
         "title":  "Blessing Glory and Honour",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006780",
@@ -34082,7 +34067,7 @@
     {
         "code":  "006817",
         "title":  "Joy of My Desire",
-        "artist":  ""
+        "artist":  "- Jennifer Randolph"
     },
     {
         "code":  "006818",
@@ -34092,7 +34077,7 @@
     {
         "code":  "006819",
         "title":  "Isang Dakot",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006820",
@@ -34427,7 +34412,7 @@
     {
         "code":  "006886",
         "title":  "Clap Clap Your Hands",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "006887",
@@ -34702,7 +34687,7 @@
     {
         "code":  "006941",
         "title":  "Pagtawag at Tugon",
-        "artist":  ""
+        "artist":  "- Tinig San Jose"
     },
     {
         "code":  "006942",
@@ -35172,7 +35157,7 @@
     {
         "code":  "007035",
         "title":  "Paano Kung Wala Ka Hesus",
-        "artist":  ""
+        "artist":  "- Tricia Amper Jimenez"
     },
     {
         "code":  "007036",
@@ -35312,7 +35297,7 @@
     {
         "code":  "007063",
         "title":  "Gaya Ng Dati",
-        "artist":  ""
+        "artist":  "- Gary Valenciano"
     },
     {
         "code":  "007064",
@@ -35472,12 +35457,12 @@
     {
         "code":  "007095",
         "title":  "Luwalhatiin Ka",
-        "artist":  ""
+        "artist":  "- Musikatha"
     },
     {
         "code":  "007096",
         "title":  "Minamahal Kita",
-        "artist":  ""
+        "artist":  "- Freddie Aguilar"
     },
     {
         "code":  "007097",
@@ -35542,7 +35527,7 @@
     {
         "code":  "007109",
         "title":  "Be Exalted",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "007110",
@@ -35607,7 +35592,7 @@
     {
         "code":  "007122",
         "title":  "May Kaibigan Ka",
-        "artist":  ""
+        "artist":  "- WAG KANA KUMANTA"
     },
     {
         "code":  "007123",
@@ -35632,7 +35617,7 @@
     {
         "code":  "007127",
         "title":  "Cornerstone",
-        "artist":  ""
+        "artist":  "Hillsong Worship"
     },
     {
         "code":  "007128",
@@ -35796,8 +35781,8 @@
     },
     {
         "code":  "007160",
-        "title":  "The Sound of  Joyful Shouting",
-        "artist":  ""
+        "title":  "The Sound of Joyful Shouting",
+        "artist":  "David Butterbaugh"
     },
     {
         "code":  "007161",
@@ -36361,8 +36346,8 @@
     },
     {
         "code":  "007273",
-        "title":  "Nang Ang Buhay  Ko\u0027y Pagharian Mo",
-        "artist":  ""
+        "title":  "Nang Ang Buhay Ko\u0027y Pagharian Mo",
+        "artist":  "PAPURI! - Lani Mabilangan"
     },
     {
         "code":  "007274",
@@ -36472,7 +36457,7 @@
     {
         "code":  "007295",
         "title":  "Heal Our Land",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007296",
@@ -36497,7 +36482,7 @@
     {
         "code":  "007300",
         "title":  "Welcome to the Family",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007301",
@@ -36522,7 +36507,7 @@
     {
         "code":  "007305",
         "title":  "Our God Is Lifted Up",
-        "artist":  ""
+        "artist":  "Eugene Greco"
     },
     {
         "code":  "007306",
@@ -36892,7 +36877,7 @@
     {
         "code":  "007379",
         "title":  "Jesus, Jesus Glorious One",
-        "artist":  ""
+        "artist":  "Petra - Randy Rothwell"
     },
     {
         "code":  "007380",
@@ -36922,7 +36907,7 @@
     {
         "code":  "007385",
         "title":  "Pagkalinga Sa Kapwa",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007386",
@@ -37202,7 +37187,7 @@
     {
         "code":  "007441",
         "title":  "Blessed Be the Rock",
-        "artist":  ""
+        "artist":  "Daniel Gardner"
     },
     {
         "code":  "007442",
@@ -37606,8 +37591,8 @@
     },
     {
         "code":  "007522",
-        "title":  "I Will Praise Him  with My Whole Heart",
-        "artist":  ""
+        "title":  "I Will Praise Him with My Whole Heart",
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007523",
@@ -37857,7 +37842,7 @@
     {
         "code":  "007572",
         "title":  "Pagbubulay~Bulay",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007573",
@@ -37957,7 +37942,7 @@
     {
         "code":  "007592",
         "title":  "Mighty One of Israel",
-        "artist":  ""
+        "artist":  "Randy Rothwell - Don Moen"
     },
     {
         "code":  "007593",
@@ -38307,7 +38292,7 @@
     {
         "code":  "007662",
         "title":  "Awitan Si Yahweh",
-        "artist":  ""
+        "artist":  "PAPURI!"
     },
     {
         "code":  "007663",
@@ -38362,7 +38347,7 @@
     {
         "code":  "007673",
         "title":  "Behold the Lamb",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007674",
@@ -38647,7 +38632,7 @@
     {
         "code":  "007730",
         "title":  "Ihahayag",
-        "artist":  ""
+        "artist":  "Faithmusic Manila"
     },
     {
         "code":  "007731",
@@ -39232,7 +39217,7 @@
     {
         "code":  "007847",
         "title":  "Isang Bagong Buhay",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007848",
@@ -39392,7 +39377,7 @@
     {
         "code":  "007879",
         "title":  "Kasama Natin Ang Diyos",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007880",
@@ -39557,7 +39542,7 @@
     {
         "code":  "007912",
         "title":  "Here Comes a Miracle",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "007913",
@@ -39837,7 +39822,7 @@
     {
         "code":  "007968",
         "title":  "Prophesy",
-        "artist":  ""
+        "artist":  "Seacoast Worship"
     },
     {
         "code":  "007969",
@@ -40251,8 +40236,8 @@
     },
     {
         "code":  "008051",
-        "title":  "You Are the God  That Healeth Thee",
-        "artist":  ""
+        "title":  "You Are the God That Healeth Thee",
+        "artist":  "Don Moen"
     },
     {
         "code":  "008052",
@@ -40777,7 +40762,7 @@
     {
         "code":  "008156",
         "title":  "More Precious Than Silver",
-        "artist":  ""
+        "artist":  "Lynn DeShazo"
     },
     {
         "code":  "008157",
@@ -41107,7 +41092,7 @@
     {
         "code":  "008222",
         "title":  "Tinapay Ng Buhay",
-        "artist":  ""
+        "artist":  "Bukas Palad Music Ministry"
     },
     {
         "code":  "008223",
@@ -41352,7 +41337,7 @@
     {
         "code":  "008271",
         "title":  "Make Me a Servant",
-        "artist":  ""
+        "artist":  "Kelly Willard"
     },
     {
         "code":  "008272",
@@ -41517,7 +41502,7 @@
     {
         "code":  "008304",
         "title":  "Jesus,Lover of My Soul",
-        "artist":  ""
+        "artist":  "Hillsong Worship"
     },
     {
         "code":  "008305",
@@ -42102,7 +42087,7 @@
     {
         "code":  "008421",
         "title":  "Kabanalbanalang Diyos",
-        "artist":  ""
+        "artist":  "Musikatha"
     },
     {
         "code":  "008422",
@@ -42212,7 +42197,7 @@
     {
         "code":  "008443",
         "title":  "Himig Panlangit",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008444",
@@ -42757,7 +42742,7 @@
     {
         "code":  "008552",
         "title":  "Blow the Trumpet",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008553",
@@ -42777,7 +42762,7 @@
     {
         "code":  "008556",
         "title":  "All the Earth Shall Worship You",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008557",
@@ -42797,7 +42782,7 @@
     {
         "code":  "008560",
         "title":  "Pag~Ibig Ko",
-        "artist":  ""
+        "artist":  "Hangad - Trin Panganiban"
     },
     {
         "code":  "008561",
@@ -43497,7 +43482,7 @@
     {
         "code":  "008700",
         "title":  "Come and Worship",
-        "artist":  ""
+        "artist":  "Charlie LeBlanc"
     },
     {
         "code":  "008701",
@@ -43582,7 +43567,7 @@
     {
         "code":  "008717",
         "title":  "Aawitin Ko",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008718",
@@ -43692,7 +43677,7 @@
     {
         "code":  "008739",
         "title":  "Binigyan Mo Ako Ng Awit",
-        "artist":  ""
+        "artist":  "PAPURI! - Malou Landazabal"
     },
     {
         "code":  "008740",
@@ -43822,7 +43807,7 @@
     {
         "code":  "008765",
         "title":  "We Give You Glory",
-        "artist":  ""
+        "artist":  "Darcy L. Watkins"
     },
     {
         "code":  "008766",
@@ -43917,7 +43902,7 @@
     {
         "code":  "008784",
         "title":  "King of Kings",
-        "artist":  ""
+        "artist":  "Naomi Batya \u0026 Sophie Conty"
     },
     {
         "code":  "008785",
@@ -44057,7 +44042,7 @@
     {
         "code":  "008812",
         "title":  "Tulong~Tulong",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008813",
@@ -44252,7 +44237,7 @@
     {
         "code":  "008851",
         "title":  "Let God Arise",
-        "artist":  ""
+        "artist":  "Chris Tomlin"
     },
     {
         "code":  "008852",
@@ -44417,7 +44402,7 @@
     {
         "code":  "008884",
         "title":  "Napakabuting Diyos",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008885",
@@ -44457,7 +44442,7 @@
     {
         "code":  "008892",
         "title":  "Panawagan",
-        "artist":  ""
+        "artist":  "PAPURI! - Bill Aujero \u0026 Robert Bironia"
     },
     {
         "code":  "008893",
@@ -44582,7 +44567,7 @@
     {
         "code":  "008917",
         "title":  "Pag~Ibig Mo, Yahweh",
-        "artist":  ""
+        "artist":  "Tinig San Jose - Bubbles Bandojo"
     },
     {
         "code":  "008918",
@@ -44857,7 +44842,7 @@
     {
         "code":  "008972",
         "title":  "Not by Might nor Power",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "008973",
@@ -44942,7 +44927,7 @@
     {
         "code":  "008989",
         "title":  "I Extol You",
-        "artist":  ""
+        "artist":  "Christ for the Nations Worship"
     },
     {
         "code":  "008990",
@@ -45527,7 +45512,7 @@
     {
         "code":  "009106",
         "title":  "Could You Be Messiah",
-        "artist":  ""
+        "artist":  "Gary Valenciano"
     },
     {
         "code":  "009107",
@@ -46552,7 +46537,7 @@
     {
         "code":  "009311",
         "title":  "Masunurin",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "009312",
@@ -46742,7 +46727,7 @@
     {
         "code":  "009349",
         "title":  "Clap Your Hands",
-        "artist":  ""
+        "artist":  "Carol Owens \u0026 Jimmy Owens"
     },
     {
         "code":  "009350",
@@ -47462,7 +47447,7 @@
     {
         "code":  "009493",
         "title":  "Tunay Kaya",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "009494",
@@ -47697,7 +47682,7 @@
     {
         "code":  "009540",
         "title":  "Be Bold Be Strong",
-        "artist":  ""
+        "artist":  "WAG KANA KUMANTA"
     },
     {
         "code":  "009541",
@@ -75266,8 +75251,8 @@
     },
     {
         "code":  "015054",
-        "title":  "Check Please - Owl City",
-        "artist":  "Adam"
+        "title":  "Check Please",
+        "artist":  "Owl City - Adam"
     },
     {
         "code":  "015055",
@@ -84436,8 +84421,8 @@
     },
     {
         "code":  "016888",
-        "title":  "Char - Char",
-        "artist":  "John Veantur"
+        "title":  "Char",
+        "artist":  "Char - John Veantur"
     },
     {
         "code":  "016889",
@@ -172372,7 +172357,7 @@
     {
         "code":  "034475",
         "title":  "Gangsta\u0027s Paradise",
-        "artist":  ""
+        "artist":  "Coolio"
     },
     {
         "code":  "034476",
@@ -172397,7 +172382,7 @@
     {
         "code":  "034480",
         "title":  "Love Will Keep Alive",
-        "artist":  ""
+        "artist":  "Eagles"
     },
     {
         "code":  "034481",
@@ -193941,8 +193926,8 @@
     },
     {
         "code":  "038789",
-        "title":  "Ika\u0027y Mahal Pa Rin (Angelito - Ost)",
-        "artist":  "Jovit Baldivino"
+        "title":  "Ika\u0027y Mahal Pa Rin (Angelito",
+        "artist":  "Ost) - Jovit Baldivino"
     },
     {
         "code":  "038790",
@@ -204891,8 +204876,8 @@
     },
     {
         "code":  "040979",
-        "title":  "Life Goes On - BTS",
-        "artist":  "English"
+        "title":  "Life Goes On",
+        "artist":  "BTS - English"
     },
     {
         "code":  "040980",
@@ -205136,8 +205121,8 @@
     },
     {
         "code":  "041028",
-        "title":  "Stay High - Childish Gambino Version",
-        "artist":  "Brittany Howard"
+        "title":  "Stay High",
+        "artist":  "Childish Gambino Version - Brittany Howard"
     },
     {
         "code":  "041029",
@@ -206491,8 +206476,8 @@
     },
     {
         "code":  "041299",
-        "title":  "Things - People Say",
-        "artist":  "Lady Antebellum"
+        "title":  "Things",
+        "artist":  "People Say - Lady Antebellum"
     },
     {
         "code":  "041300",
@@ -238615,11 +238600,6 @@
         "artist":  ""
     },
     {
-        "code":  "047724",
-        "title":  "Against All Odds",
-        "artist":  "Phil Collins"
-    },
-    {
         "code":  "047725",
         "title":  "AGAINST ALL ODDS",
         "artist":  ""
@@ -239595,11 +239575,6 @@
         "artist":  ""
     },
     {
-        "code":  "047920",
-        "title":  "Angel",
-        "artist":  "Shaggy"
-    },
-    {
         "code":  "047921",
         "title":  "ANGEL EYES",
         "artist":  ""
@@ -240133,11 +240108,6 @@
         "code":  "048027",
         "title":  "Atomic Kitten",
         "artist":  "Whole Again-demo"
-    },
-    {
-        "code":  "048028",
-        "title":  "Aubrey",
-        "artist":  "Bread"
     },
     {
         "code":  "048029",
@@ -241905,11 +241875,6 @@
         "artist":  ""
     },
     {
-        "code":  "048382",
-        "title":  "Beautiful Life",
-        "artist":  "Ace of Base"
-    },
-    {
         "code":  "048383",
         "title":  "Beautiful South",
         "artist":  "Don\u0027t Marry Her, Have Me-demo"
@@ -241973,11 +241938,6 @@
         "code":  "048395",
         "title":  "BECAUSE",
         "artist":  ""
-    },
-    {
-        "code":  "048396",
-        "title":  "Bed of Roses",
-        "artist":  "Bon Jovi"
     },
     {
         "code":  "048397",
@@ -243870,11 +243830,6 @@
         "artist":  ""
     },
     {
-        "code":  "048775",
-        "title":  "Breathless",
-        "artist":  "The Corrs"
-    },
-    {
         "code":  "048776",
         "title":  "BREATHLESS",
         "artist":  ""
@@ -244298,11 +244253,6 @@
         "code":  "048860",
         "title":  "bryan adams",
         "artist":  "heaven"
-    },
-    {
-        "code":  "048861",
-        "title":  "Bryan Adams",
-        "artist":  "Heaven-demo"
     },
     {
         "code":  "048862",
@@ -244750,11 +244700,6 @@
         "artist":  ""
     },
     {
-        "code":  "048951",
-        "title":  "Careless Whispers",
-        "artist":  "Wham"
-    },
-    {
         "code":  "048952",
         "title":  "Carly Simon",
         "artist":  "We Have No Secrets-demo"
@@ -244943,11 +244888,6 @@
         "code":  "048989",
         "title":  "Cars",
         "artist":  "Just What I Needed-demo"
-    },
-    {
-        "code":  "048990",
-        "title":  "Cartoon Heroes",
-        "artist":  "Aqua"
     },
     {
         "code":  "048991",
@@ -245353,11 +245293,6 @@
         "code":  "049071",
         "title":  "Chaka Khan",
         "artist":  "I Fell For You-demo"
-    },
-    {
-        "code":  "049072",
-        "title":  "Champagne Supernova",
-        "artist":  "Oasis"
     },
     {
         "code":  "049073",
@@ -245970,11 +245905,6 @@
         "artist":  ""
     },
     {
-        "code":  "049195",
-        "title":  "Christmas -Deck The Halls-demo",
-        "artist":  ""
-    },
-    {
         "code":  "049196",
         "title":  "CHRISTMAS IN OUR HEARTS",
         "artist":  ""
@@ -246305,11 +246235,6 @@
         "artist":  "Never can say goodbye-demo"
     },
     {
-        "code":  "049262",
-        "title":  "Complicated",
-        "artist":  "Avril Lavigne"
-    },
-    {
         "code":  "049263",
         "title":  "COMPLICATED HEART",
         "artist":  ""
@@ -246538,11 +246463,6 @@
         "code":  "049308",
         "title":  "CRASH! BOOM! BANG!",
         "artist":  ""
-    },
-    {
-        "code":  "049309",
-        "title":  "Crawling",
-        "artist":  "Linkin Park"
     },
     {
         "code":  "049310",
@@ -246950,11 +246870,6 @@
         "artist":  "Not If You Were The Last Junky On Earth-demo"
     },
     {
-        "code":  "049391",
-        "title":  "Dangerous",
-        "artist":  "Roxette"
-    },
-    {
         "code":  "049392",
         "title":  "DANGEROUS",
         "artist":  ""
@@ -247295,11 +247210,6 @@
         "artist":  ""
     },
     {
-        "code":  "049460",
-        "title":  "Desperado",
-        "artist":  "Eagles"
-    },
-    {
         "code":  "049461",
         "title":  "DESPERADO",
         "artist":  ""
@@ -247413,11 +247323,6 @@
         "code":  "049483",
         "title":  "Diane Warwick",
         "artist":  "Thats What Friends Are For-demo"
-    },
-    {
-        "code":  "049484",
-        "title":  "Diary",
-        "artist":  "Bread"
     },
     {
         "code":  "049485",
@@ -247556,8 +247461,8 @@
     },
     {
         "code":  "049512",
-        "title":  "Disney - Just Around The Riverbend",
-        "artist":  "Pocahontas-demo"
+        "title":  "Disney",
+        "artist":  "Just Around The Riverbend - Pocahontas-demo"
     },
     {
         "code":  "049513",
@@ -248043,11 +247948,6 @@
         "code":  "049609",
         "title":  "DON\u0027T SAY YOU LOVE ME",
         "artist":  ""
-    },
-    {
-        "code":  "049610",
-        "title":  "Don\u0027t Speak",
-        "artist":  "No Doubt"
     },
     {
         "code":  "049611",
@@ -249115,11 +249015,6 @@
         "artist":  "A Word In Spanish-demo"
     },
     {
-        "code":  "049824",
-        "title":  "Elton John -Sacrifice-demo",
-        "artist":  ""
-    },
-    {
         "code":  "049825",
         "title":  "Elton_John_-_Skyline_pigeon-demo",
         "artist":  ""
@@ -250120,11 +250015,6 @@
         "artist":  "Havsörnsvals-demo"
     },
     {
-        "code":  "050025",
-        "title":  "Every Breath You Take",
-        "artist":  "Police"
-    },
-    {
         "code":  "050026",
         "title":  "EVERY BREATH YOU TAKE",
         "artist":  ""
@@ -250240,11 +250130,6 @@
         "artist":  ""
     },
     {
-        "code":  "050049",
-        "title":  "Everything I Own",
-        "artist":  "Bread"
-    },
-    {
         "code":  "050050",
         "title":  "EVERYTHING I OWN",
         "artist":  ""
@@ -250273,11 +250158,6 @@
         "code":  "050055",
         "title":  "EVERYTIME",
         "artist":  ""
-    },
-    {
-        "code":  "050056",
-        "title":  "Everywhere",
-        "artist":  "Michelle Branch"
     },
     {
         "code":  "050057",
@@ -250358,11 +250238,6 @@
         "code":  "050072",
         "title":  "FADED LOVE",
         "artist":  ""
-    },
-    {
-        "code":  "050073",
-        "title":  "Fading Like a Flower",
-        "artist":  "Roxette"
     },
     {
         "code":  "050074",
@@ -250510,11 +250385,6 @@
         "artist":  ""
     },
     {
-        "code":  "050103",
-        "title":  "Father and Son",
-        "artist":  "Cat Stevens"
-    },
-    {
         "code":  "050104",
         "title":  "FATHER AND SON",
         "artist":  ""
@@ -250593,11 +250463,6 @@
         "code":  "050119",
         "title":  "FIDDLE-DE-DEE",
         "artist":  ""
-    },
-    {
-        "code":  "050120",
-        "title":  "Fields of Gold",
-        "artist":  "Sting"
     },
     {
         "code":  "050121",
@@ -250898,11 +250763,6 @@
         "code":  "050180",
         "title":  "FOR ALL OF MY LIFE",
         "artist":  ""
-    },
-    {
-        "code":  "050181",
-        "title":  "For All We Know",
-        "artist":  "Carpenters"
     },
     {
         "code":  "050182",
@@ -252500,11 +252360,6 @@
         "artist":  "Lennon and McCartney"
     },
     {
-        "code":  "050501",
-        "title":  "Goodbye",
-        "artist":  "Spice Girls"
-    },
-    {
         "code":  "050502",
         "title":  "GOODBYE IS NOT FOREVER",
         "artist":  ""
@@ -252630,11 +252485,6 @@
         "artist":  ""
     },
     {
-        "code":  "050527",
-        "title":  "Greatest Love of All",
-        "artist":  "Whitney Houston"
-    },
-    {
         "code":  "050528",
         "title":  "GREATEST LOVE OF ALL",
         "artist":  ""
@@ -252688,11 +252538,6 @@
         "code":  "050538",
         "title":  "GUILTY",
         "artist":  ""
-    },
-    {
-        "code":  "050539",
-        "title":  "Guitar Man",
-        "artist":  "Bread"
     },
     {
         "code":  "050540",
@@ -252990,11 +252835,6 @@
         "artist":  ""
     },
     {
-        "code":  "050599",
-        "title":  "Heal the World",
-        "artist":  "Michael Jackson"
-    },
-    {
         "code":  "050600",
         "title":  "HEAL THE WORLD",
         "artist":  ""
@@ -253023,11 +252863,6 @@
         "code":  "050605",
         "title":  "HEART OF GLASS",
         "artist":  ""
-    },
-    {
-        "code":  "050606",
-        "title":  "Heart of Gold",
-        "artist":  "Neil Young"
     },
     {
         "code":  "050607",
@@ -253113,11 +252948,6 @@
         "code":  "050623",
         "title":  "HE\u0027LL HAVE TO GO",
         "artist":  ""
-    },
-    {
-        "code":  "050624",
-        "title":  "Hello",
-        "artist":  "Lionel Richie"
     },
     {
         "code":  "050625",
@@ -253253,11 +253083,6 @@
         "code":  "050651",
         "title":  "HERE YOU COME AGAIN",
         "artist":  ""
-    },
-    {
-        "code":  "050652",
-        "title":  "Hero",
-        "artist":  "Mariah Carey"
     },
     {
         "code":  "050653",
@@ -253480,11 +253305,6 @@
         "artist":  ""
     },
     {
-        "code":  "050697",
-        "title":  "Hold on to the Night",
-        "artist":  "Richard Marx"
-    },
-    {
         "code":  "050698",
         "title":  "HOLD ON",
         "artist":  ""
@@ -253635,11 +253455,6 @@
         "artist":  ""
     },
     {
-        "code":  "050728",
-        "title":  "House of the Rising Sun",
-        "artist":  "Animals"
-    },
-    {
         "code":  "050729",
         "title":  "HOUSE OF THE RISING SUN",
         "artist":  ""
@@ -253703,11 +253518,6 @@
         "code":  "050741",
         "title":  "HOW COULD YOU LEAVE",
         "artist":  ""
-    },
-    {
-        "code":  "050742",
-        "title":  "How Deep Is Your Love",
-        "artist":  "Bee Gees"
     },
     {
         "code":  "050743",
@@ -254645,11 +254455,6 @@
         "artist":  ""
     },
     {
-        "code":  "050930",
-        "title":  "I Will Always Love You",
-        "artist":  "Whitney Houston"
-    },
-    {
         "code":  "050931",
         "title":  "I WILL ALWAYS LOVE YOU",
         "artist":  ""
@@ -254793,11 +254598,6 @@
         "code":  "050959",
         "title":  "I\u0027D LOVE YOU TO WANT ME",
         "artist":  ""
-    },
-    {
-        "code":  "050960",
-        "title":  "If",
-        "artist":  "Bread"
     },
     {
         "code":  "050961",
@@ -255365,11 +255165,6 @@
         "artist":  ""
     },
     {
-        "code":  "051074",
-        "title":  "Imagine",
-        "artist":  "John Lennon"
-    },
-    {
         "code":  "051075",
         "title":  "IMAGINE",
         "artist":  ""
@@ -255418,11 +255213,6 @@
         "code":  "051084",
         "title":  "IN THE ARMY NOW",
         "artist":  ""
-    },
-    {
-        "code":  "051085",
-        "title":  "In the End",
-        "artist":  "Linkin Park"
     },
     {
         "code":  "051086",
@@ -255530,11 +255320,6 @@
         "artist":  "Go Goo Dolls"
     },
     {
-        "code":  "051107",
-        "title":  "Ironic",
-        "artist":  "Alanis Morissette"
-    },
-    {
         "code":  "051108",
         "title":  "IRONIC",
         "artist":  ""
@@ -255628,11 +255413,6 @@
         "code":  "051126",
         "title":  "IT TAKES TWO",
         "artist":  ""
-    },
-    {
-        "code":  "051127",
-        "title":  "It Wasn\u0027t Me",
-        "artist":  "Shaggy"
     },
     {
         "code":  "051128",
@@ -256375,11 +256155,6 @@
         "artist":  ""
     },
     {
-        "code":  "051276",
-        "title":  "La Isla Bonita",
-        "artist":  "Madonna"
-    },
-    {
         "code":  "051277",
         "title":  "LA ISLA BONITA",
         "artist":  ""
@@ -257013,11 +256788,6 @@
         "code":  "051403",
         "title":  "LET HER CRY",
         "artist":  ""
-    },
-    {
-        "code":  "051404",
-        "title":  "Let It Be",
-        "artist":  "Beatles"
     },
     {
         "code":  "051405",
@@ -258158,11 +257928,6 @@
         "code":  "051632",
         "title":  "M2m",
         "artist":  "Mirror Mirror-demo"
-    },
-    {
-        "code":  "051633",
-        "title":  "Macarena",
-        "artist":  "Los Del Rio"
     },
     {
         "code":  "051634",
@@ -260265,11 +260030,6 @@
         "artist":  ""
     },
     {
-        "code":  "052054",
-        "title":  "Morning Has Broken",
-        "artist":  "Cat Stevens"
-    },
-    {
         "code":  "052055",
         "title":  "MORNING HAS BROKEN",
         "artist":  ""
@@ -260658,11 +260418,6 @@
         "code":  "052132",
         "title":  "MY PRAYER",
         "artist":  ""
-    },
-    {
-        "code":  "052133",
-        "title":  "My Sacrifice",
-        "artist":  "Creed"
     },
     {
         "code":  "052134",
@@ -261675,11 +261430,6 @@
         "artist":  ""
     },
     {
-        "code":  "052336",
-        "title":  "Now and Forever",
-        "artist":  "Richard Marx"
-    },
-    {
         "code":  "052337",
         "title":  "NOW AND FOREVER",
         "artist":  ""
@@ -262370,11 +262120,6 @@
         "artist":  ""
     },
     {
-        "code":  "052475",
-        "title":  "One Step Closer",
-        "artist":  "Linkin Park"
-    },
-    {
         "code":  "052476",
         "title":  "ONE SUMMER NIGHT",
         "artist":  ""
@@ -262453,11 +262198,6 @@
         "code":  "052491",
         "title":  "ONLY YESTERDAY",
         "artist":  ""
-    },
-    {
-        "code":  "052492",
-        "title":  "Only You",
-        "artist":  "The Platters"
     },
     {
         "code":  "052493",
@@ -264225,11 +263965,6 @@
         "artist":  ""
     },
     {
-        "code":  "052846",
-        "title":  "Please Release Me",
-        "artist":  "Engelbert Humperdinck"
-    },
-    {
         "code":  "052847",
         "title":  "PLESANT VALLEY SUNDAY",
         "artist":  ""
@@ -264563,11 +264298,6 @@
         "code":  "052913",
         "title":  "PROMISE YOU MADE",
         "artist":  ""
-    },
-    {
-        "code":  "052914",
-        "title":  "Promises",
-        "artist":  "Cranberries"
     },
     {
         "code":  "052915",
@@ -265100,11 +264830,6 @@
         "artist":  "Ghostbusters-demo"
     },
     {
-        "code":  "053021",
-        "title":  "Reach",
-        "artist":  "Gloria Estefan"
-    },
-    {
         "code":  "053022",
         "title":  "REACH OUT I\u0027LL BE THERE",
         "artist":  ""
@@ -265603,11 +265328,6 @@
         "code":  "053121",
         "title":  "RIGHT HERE RIGHT NOW",
         "artist":  ""
-    },
-    {
-        "code":  "053122",
-        "title":  "Right Here Waiting",
-        "artist":  "Richard Marx"
     },
     {
         "code":  "053123",
@@ -266150,11 +265870,6 @@
         "artist":  ""
     },
     {
-        "code":  "053231",
-        "title":  "Rosanna",
-        "artist":  "Toto"
-    },
-    {
         "code":  "053232",
         "title":  "ROSANNA",
         "artist":  ""
@@ -266510,11 +266225,6 @@
         "artist":  ""
     },
     {
-        "code":  "053303",
-        "title":  "Sacrifice",
-        "artist":  "Elton John"
-    },
-    {
         "code":  "053304",
         "title":  "SACRIFICE",
         "artist":  ""
@@ -266828,11 +266538,6 @@
         "code":  "053366",
         "title":  "SAY WHAT YOU WANT",
         "artist":  ""
-    },
-    {
-        "code":  "053367",
-        "title":  "Say You Say Me",
-        "artist":  "Lionel Richie"
     },
     {
         "code":  "053368",
@@ -267328,11 +267033,6 @@
         "code":  "053466",
         "title":  "Shawn Colvin",
         "artist":  "Sunny Came Home-demo"
-    },
-    {
-        "code":  "053467",
-        "title":  "She Bangs",
-        "artist":  "Ricky Martin"
     },
     {
         "code":  "053468",
@@ -268065,11 +267765,6 @@
         "artist":  "Needles And Pins-demo"
     },
     {
-        "code":  "053614",
-        "title":  "Smooth",
-        "artist":  "Santana"
-    },
-    {
         "code":  "053615",
         "title":  "SMOOTH CRIMINAL",
         "artist":  ""
@@ -268303,11 +267998,6 @@
         "code":  "053661",
         "title":  "SOMETHING\u0027S GOTTEN HOLD",
         "artist":  ""
-    },
-    {
-        "code":  "053662",
-        "title":  "Sometimes",
-        "artist":  "Britney Spears"
     },
     {
         "code":  "053663",
@@ -268715,11 +268405,6 @@
         "artist":  ""
     },
     {
-        "code":  "053744",
-        "title":  "Stan",
-        "artist":  "Eminem"
-    },
-    {
         "code":  "053745",
         "title":  "STAND BY ME",
         "artist":  ""
@@ -269083,11 +268768,6 @@
         "code":  "053817",
         "title":  "STILL IN LOVE WITH YOU",
         "artist":  ""
-    },
-    {
-        "code":  "053818",
-        "title":  "Still Loving You",
-        "artist":  "Scorpions"
     },
     {
         "code":  "053819",
@@ -269550,11 +269230,6 @@
         "artist":  "Alright-demo"
     },
     {
-        "code":  "053911",
-        "title":  "Superman",
-        "artist":  "Five for Fighting"
-    },
-    {
         "code":  "053912",
         "title":  "SUPERMAN",
         "artist":  ""
@@ -269930,11 +269605,6 @@
         "artist":  ""
     },
     {
-        "code":  "053987",
-        "title":  "Take Me Home Country Roads",
-        "artist":  "John Denver"
-    },
-    {
         "code":  "053988",
         "title":  "TAKE ME OUT TO THE BALL GAME",
         "artist":  ""
@@ -270268,11 +269938,6 @@
         "code":  "054054",
         "title":  "THAT DAY IS DONE",
         "artist":  ""
-    },
-    {
-        "code":  "054055",
-        "title":  "That Thing You Do",
-        "artist":  "The Wonders"
     },
     {
         "code":  "054056",
@@ -271300,11 +270965,6 @@
         "artist":  ""
     },
     {
-        "code":  "054261",
-        "title":  "The One",
-        "artist":  "Backstreet Boys"
-    },
-    {
         "code":  "054262",
         "title":  "THE ONE I LOVE",
         "artist":  ""
@@ -271508,11 +271168,6 @@
         "code":  "054302",
         "title":  "THE SHOW MUST GO ON",
         "artist":  ""
-    },
-    {
-        "code":  "054303",
-        "title":  "The Sign",
-        "artist":  "Ace of Base"
     },
     {
         "code":  "054304",
@@ -271983,11 +271638,6 @@
         "code":  "054397",
         "title":  "THERE WILL NEVER BE ANOTHER YOU",
         "artist":  ""
-    },
-    {
-        "code":  "054398",
-        "title":  "There You\u0027ll Be",
-        "artist":  "Faith Hill"
     },
     {
         "code":  "054399",
@@ -272523,11 +272173,6 @@
         "code":  "054505",
         "title":  "TO LOVE SOMEBODY",
         "artist":  ""
-    },
-    {
-        "code":  "054506",
-        "title":  "To Love You More",
-        "artist":  "Celine Dion"
     },
     {
         "code":  "054507",
@@ -273145,11 +272790,6 @@
         "artist":  ""
     },
     {
-        "code":  "054630",
-        "title":  "Turn Back Time",
-        "artist":  "Aqua"
-    },
-    {
         "code":  "054631",
         "title":  "TURN OF A FRIENDLY CARD (PART II)",
         "artist":  ""
@@ -273181,8 +272821,8 @@
     },
     {
         "code":  "054637",
-        "title":  "TV - Warner Brothers",
-        "artist":  "Animaniacs Theme-demo"
+        "title":  "TV",
+        "artist":  "Warner Brothers - Animaniacs Theme-demo"
     },
     {
         "code":  "054638",
@@ -273905,11 +273545,6 @@
         "artist":  "Conga Mix Fin de Fiesta-demo"
     },
     {
-        "code":  "054782",
-        "title":  "Viva Forever",
-        "artist":  "Spice Girls"
-    },
-    {
         "code":  "054783",
         "title":  "VIVA LAS VEGAS",
         "artist":  ""
@@ -274003,11 +273638,6 @@
         "code":  "054801",
         "title":  "WALK AWAY",
         "artist":  ""
-    },
-    {
-        "code":  "054802",
-        "title":  "Walk Like an Egyptian",
-        "artist":  "Bangles"
     },
     {
         "code":  "054803",
@@ -274143,11 +273773,6 @@
         "code":  "054829",
         "title":  "WE BELONG",
         "artist":  ""
-    },
-    {
-        "code":  "054830",
-        "title":  "We Built This City",
-        "artist":  "Starship"
     },
     {
         "code":  "054831",
@@ -274455,11 +274080,6 @@
         "artist":  ""
     },
     {
-        "code":  "054892",
-        "title":  "What Can I Do",
-        "artist":  "The Corrs"
-    },
-    {
         "code":  "054893",
         "title":  "WHAT CAN I DO",
         "artist":  ""
@@ -274658,11 +274278,6 @@
         "code":  "054932",
         "title":  "WHEN I MET YOU",
         "artist":  ""
-    },
-    {
-        "code":  "054933",
-        "title":  "When I Need You",
-        "artist":  "Celine Dion"
     },
     {
         "code":  "054934",
@@ -275320,11 +274935,6 @@
         "artist":  ""
     },
     {
-        "code":  "055065",
-        "title":  "With Arms Wide Open",
-        "artist":  "Creed"
-    },
-    {
         "code":  "055066",
         "title":  "WITH OR WITHOUT YOU",
         "artist":  ""
@@ -275348,11 +274958,6 @@
         "code":  "055070",
         "title":  "WITHOUT LOVE",
         "artist":  ""
-    },
-    {
-        "code":  "055071",
-        "title":  "Without You",
-        "artist":  "Mariah Carey"
     },
     {
         "code":  "055072",
@@ -276216,76 +275821,6 @@
     },
     {
         "code":  "055244",
-        "title":  "Weng Weng",
-        "artist":  "Uncle Dags"
-    },
-    {
-        "code":  "055245",
-        "title":  "Am I Real",
-        "artist":  "Rivermaya"
-    },
-    {
-        "code":  "055246",
-        "title":  "Andamanaya (Tagalog Version)",
-        "artist":  "EL SISTER"
-    },
-    {
-        "code":  "055247",
-        "title":  "Angel of my Dreams",
-        "artist":  "JADE"
-    },
-    {
-        "code":  "055248",
-        "title":  "Bituin Ng Mindanao",
-        "artist":  "Rene (NEW)"
-    },
-    {
-        "code":  "055249",
-        "title":  "Digidi digidi",
-        "artist":  "DJ Ilham"
-    },
-    {
-        "code":  "055250",
-        "title":  "Mahal Magmahal (Unfinished V3)",
-        "artist":  "Esremborak"
-    },
-    {
-        "code":  "055251",
-        "title":  "Obladi Oblada",
-        "artist":  "Beatles"
-    },
-    {
-        "code":  "055252",
-        "title":  "Origimal (CLEAN Ver.)",
-        "artist":  "Uncle Dags, RJD"
-    },
-    {
-        "code":  "055253",
-        "title":  "Rene Bituin ng Mindanao",
-        "artist":  "Subanen Channel"
-    },
-    {
-        "code":  "055254",
-        "title":  "Sigabo",
-        "artist":  "Yeng Constantino"
-    },
-    {
-        "code":  "055255",
-        "title":  "Tenchu",
-        "artist":  "Esremborak"
-    },
-    {
-        "code":  "055256",
-        "title":  "Truce",
-        "artist":  "Twenty One Pilots [No lyrics]"
-    },
-    {
-        "code":  "055257",
-        "title":  "unhappy",
-        "artist":  "s0rrow"
-    },
-    {
-        "code":  "055258",
         "title":  "Weng Weng",
         "artist":  "Uncle Dags"
     }
