@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "2.1",
-  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/2.1/app-debug.apk",
-  "releaseNotes": "SongHub Remote 2.1 - Latest app update"
+  "versionCode": 16,
+  "versionName": "2.2",
+  "apkUrl": "https://github.com/ZHYBREY/SongHubRemote/releases/download/2.2/app-debug.apk",
+  "releaseNotes": "SongHub Remote 2.2 - Lyrics catalog array support and improvements"
 }
